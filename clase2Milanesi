@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+</head>
+<body>
+
+    <script>
+        let num = prompt("ingrese un numero");
+        let numInt = parseInt(num);
+        if(numInt >= 0){
+            alert("Ingresaste un numero positivo");
+        }
+        else(alert("Ingresaste un numero negativo"))
+        if(numInt > 0 && numInt < 10){
+            alert("tu numero es menor a 10");
+        }
+        else if(numInt > 10){
+            alert("El numero ingresado es mayor a 10")
+        }
+    </script>
+</body>
+</html>
